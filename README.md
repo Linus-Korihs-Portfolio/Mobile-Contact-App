@@ -61,3 +61,4 @@ This README focuses on the implemented app features and the technical parts I ca
 ## Links
 
 - Original repository: [LinusKorihs/VR-AR---Mobile](https://github.com/LinusKorihs/VR-AR---Mobile)
+- Portfolio: Coming Soon
