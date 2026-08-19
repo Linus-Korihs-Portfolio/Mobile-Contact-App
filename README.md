@@ -1,26 +1,63 @@
-The project:
+# Contact App
 
-A Android-Application that pulls random user data over a web API and saves them locally in a data bank. The user can create QR-Codes of the contacts and scan those to get the information of the random user.
+A small Android contact app prototype built with Kotlin.
 
-To run it:
+> Portfolio documentation version  
+> This project was developed collaboratively by two programmers as a university/course assignment. The repository was published after development, so the commit history does not fully represent the original collaboration timeline.
 
-(Needed)
-- Have Android Studio installed
-- Gradle over the wrapper
-- Has API Level of 35 for Android
-- JDK, Kotlin, Ktor and other libraries for the certain version (if not they will be downloaded by syncing with the gradle files)
+## Overview
 
-1. Open project in Android Studio
-2. Gradle sync
-3. Open the App over an Android with API/SDK 35 or higher. If not use a emulator with the correct API version
-4. Make sure the Android has the rights to use the camera. If not go to the device in device manager -> edit -> additional settings -> camera and choose for all possible cams the webcam. Click on finish. Restart the emulator and now the device should be able to use the computer camera
+Contact App is an Android application built with Kotlin. The app fetches random user data from a web API, stores contacts locally and allows users to generate and scan QR codes for contact import/export.
 
-App Features:
+The project focused on basic mobile app development, API handling, local data storage and camera-based QR functionality.
 
-- Show Contacts
-- Show Contact details like profile picture, name or address
-- Generate QR Codes with the contact information
-- Scan QR Codes to obtain contact information
-- Clear data bank
-- Import new contacts over the api
-- Export the contacts local
+## Features
+
+- Fetch random contacts from a web API
+- Display saved contacts
+- Show contact details such as profile picture, name and address
+- Store contacts locally
+- Generate QR codes from contact data
+- Scan QR codes to import contact information
+- Clear local contact data
+- Export contact data locally
+
+## Technical Focus
+
+- Kotlin Android development
+- API data handling
+- Local data storage
+- QR code generation
+- QR code scanning
+- Camera permission handling
+- Gradle-based Android project setup
+- Basic mobile app architecture
+
+## How to Run
+
+Requirements:
+- Android Studio
+- Android device or emulator with API level 35 or higher
+- JDK
+- Gradle wrapper
+- Kotlin/Ktor dependencies, downloaded through Gradle sync if needed
+
+Setup:
+1. Open the project in Android Studio
+2. Run Gradle sync
+3. Start the app on an Android device or emulator with API level 35 or higher
+4. Make sure camera permissions are enabled for QR code scanning
+
+If the emulator camera is not working, open the device settings in Android Studio's Device Manager and configure the camera source before restarting the emulator.
+
+## Project Context
+
+This project was developed as a university/course assignment.
+
+It was created collaboratively, but the repository was published after development. Because of that, the commit history does not fully show the original teamwork or development timeline.
+
+This README focuses on the implemented app features and the technical parts I can explain in detail.
+
+## Links
+
+- Original repository: [LinusKorihs/VR-AR---Mobile](https://github.com/LinusKorihs/VR-AR---Mobile)
